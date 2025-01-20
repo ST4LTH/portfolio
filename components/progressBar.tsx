@@ -15,7 +15,7 @@ import { motion } from "framer-motion";
 
 export default function ProgressBar({
   pages = ["/", "/about", "/contact"],
-  duration = 3000,
+  duration = 10000,
 }) {
   const [progress, setProgress] = useState(0);
   const [currentPageIndex, setCurrentPageIndex] = useState(-1);

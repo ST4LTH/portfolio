@@ -10,6 +10,8 @@ export default function Home() {
   return (
     <div className="flex gap-6 w-fit">
       <Image 
+        width={50}
+        height={50}
         className="rounded-full h-24 w-24 z-10"
         src={Edvin.src} 
         alt="Edvin"

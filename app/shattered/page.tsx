@@ -4,8 +4,14 @@ import Shattered from '@/assets/shattered.png';
 export default function About() {
   return (
     <div className="flex gap-6 w-fit">
-      <div className="w-48 h-48">
-        <Image alt="shattered-icon" src={Shattered.src} />  
+      <div>
+        <Image 
+          className="w-48 h-48"
+          width={500}
+          height={500} 
+          alt="shattered-icon" 
+          src={Shattered.src} 
+        />   
       </div>
       <div className="mt-5">
         <p className="mb-1 text-xl font-semibold">
