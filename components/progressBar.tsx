@@ -5,7 +5,6 @@ import { usePathname, useRouter } from "next/navigation";
 import { ModeToggle } from "./modeToggle";
 import {
   AlignJustifyIcon,
-  MenuIcon,
   PauseIcon,
   PlayIcon,
   XIcon,

@@ -1,10 +1,11 @@
+import Image from "next/image"
 import Shattered from '@/assets/shattered.png';  
 
 export default function About() {
   return (
     <div className="flex gap-6 w-fit">
       <div className="w-48 h-48">
-        <img alt="shattered-icon" src={Shattered.src} />  
+        <Image alt="shattered-icon" src={Shattered.src} />  
       </div>
       <div className="mt-5">
         <p className="mb-1 text-xl font-semibold">

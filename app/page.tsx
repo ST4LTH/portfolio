@@ -3,12 +3,13 @@ import { LuaIcon } from "@/assets/icons/lua";
 import { ReactIcon } from "@/assets/icons/react";
 import { TypescriptIcon } from "@/assets/icons/typescript";
 import { VueIcon } from "@/assets/icons/vue";
+import Image from "next/image"
 import Edvin from '@/assets/edvin.png';  
 
 export default function Home() {
   return (
     <div className="flex gap-6 w-fit">
-      <img 
+      <Image 
         className="rounded-full h-24 w-24 z-10"
         src={Edvin.src} 
         alt="Edvin"
