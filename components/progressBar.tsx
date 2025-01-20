@@ -46,7 +46,7 @@ export default function ProgressBar({
       setProgress(0);
       setCurrentPageIndex(pageIndex);
     }
-  }, [currentPage, pages, currentPageIndex]);
+  }, [isSubroute, pathname, currentPage, pages, currentPageIndex]);
 
   useEffect(() => {
     if (currentPageIndex >= pages.length || paused) return;

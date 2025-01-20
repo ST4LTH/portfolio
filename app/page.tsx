@@ -16,7 +16,7 @@ export default function Home() {
       />
       <div className="mt-5">
         <p className="mb-1 text-xl font-semibold">
-          Hi I'm Edvin
+          Hi Im Edvin
         </p>
         <p className="mb-6 text-sm text-neutral-700 dark:text-neutral-400 ">
           Also known as ST4LTH
