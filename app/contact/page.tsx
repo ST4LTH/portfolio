@@ -18,7 +18,7 @@ export default function About() {
       <Input id="name" className="w-full mb-2" type="mail" placeholder="Mail"/>
       <Label htmlFor="name">Message</Label>
       <Textarea id="name" className="w-full mb-2" placeholder="Message"/>
-      <Button className="mt-2 w-full  border">
+      <Button className="mt-2 w-full">
         Send
       </Button>
     </div>
