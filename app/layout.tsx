@@ -10,7 +10,7 @@ import { Navigation } from "@/components/navigation";
 import { DiscordIcon } from "@/assets/icons/discord";
 import { YoutubeIcon } from "@/assets/icons/youtube";
 import { GithubIcon } from "@/assets/icons/github";
-import Transition from "@/app/template";
+import { Analytics } from "@vercel/analytics/react"
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
