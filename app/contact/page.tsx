@@ -10,7 +10,7 @@ export default function About() {
         Contact me
       </p>
       <p className="mb-3 text-sm text-neutral-700 dark:text-neutral-400 ">
-        I will get back to you as soon as possible!
+        I&apos;ll get back to you as soon as possible!
       </p>
       <Label htmlFor="name">Name</Label>
       <Input id="name" className="w-full mb-2" type="name" placeholder="Name"/>
