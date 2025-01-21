@@ -1,0 +1,26 @@
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+
+export default function About() {
+  return (
+    <div className="w-[45vh] bg-neutral-300/30 dark:bg-black/30 p-3 rounded-lg">
+      <p className="text-xl font-semibold">
+        Contact me
+      </p>
+      <p className="mb-3 text-sm text-neutral-700 dark:text-neutral-400 ">
+        I will get back to you as soon as possible!
+      </p>
+      <Label htmlFor="name">Name</Label>
+      <Input id="name" className="w-full mb-2" type="name" placeholder="Name"/>
+      <Label htmlFor="name">Mail</Label>
+      <Input id="name" className="w-full mb-2" type="mail" placeholder="Mail"/>
+      <Label htmlFor="name">Message</Label>
+      <Textarea id="name" className="w-full mb-2" placeholder="Message"/>
+      <Button className="mt-2 w-full  border">
+        Send
+      </Button>
+    </div>
+  );
+}

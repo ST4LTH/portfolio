@@ -12,6 +12,7 @@ export const YoutubeIcon = ({ className }: { className?: string }) => (
       />
       <path
         d="M11.4253 14.2854L18.8477 10.0004L11.4253 5.71533V14.2854Z"
+        fill="black"
         className="!fill-white dark:!fill-black !dark:fill-black"
       />
     </g>

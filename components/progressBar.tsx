@@ -14,7 +14,7 @@ import { NavigationDrawer } from "./navigationDrawer";
 import { motion } from "framer-motion";
 
 export default function ProgressBar({
-  pages = ["/", "/about", "/contact"],
+  pages = ["/", "/about", "/contact", "/contact"],
   duration = 10000,
 }) {
   const [progress, setProgress] = useState(0);
@@ -80,7 +80,7 @@ export default function ProgressBar({
 
   return (
     <>
-      <div className="grid h-2 w-full gap-1 grid-cols-3">
+      <div className="grid h-2 w-full gap-1 grid-cols-4">
         {pages.map((page, index) => (
           <div
             key={page}

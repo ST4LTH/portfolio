@@ -32,7 +32,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const routes = ["/", "/shattered", "/store"]
+  const routes = ["/", "/shattered", "/store", "/contact"]
   
   return (
     <html lang="en">
