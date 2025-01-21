@@ -55,6 +55,7 @@ export default function RootLayout({
             />
             <main className="flex justify-self-center gap-8 row-start-2 items-center sm:items-start">
               {children}
+              <Analytics />
             </main>
             <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
               <Navigation pages={routes} />
