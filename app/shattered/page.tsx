@@ -22,7 +22,7 @@ export default function About() {
         </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            A personal passion project I've been working on since 2023
+            A personal passion project Ive been working on since 2023
           </li>
           <li className="mb-2">
             Fully inhouse developed framework
