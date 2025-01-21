@@ -14,7 +14,7 @@ export default function About() {
       </div>
       <div className="mt-5">
         <p className="mb-1 text-xl font-semibold">
-          Shattered Roleplay
+          Shattered Roleplays
         </p>
         <p className="mb-6 text-sm text-neutral-700 dark:text-neutral-400 ">
           Owner and Developer
