@@ -6,7 +6,7 @@ export default function Store() {
     <div className="flex gap-6 w-fit">
       <div>
         <Image 
-          className="w-32 h-32 rounded-full"
+          className="h-24 w-24 rounded-full"
           width={500}
           height={500} 
           alt="shattered-icon" 

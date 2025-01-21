@@ -14,10 +14,10 @@ export default function About() {
       </p>
       <Label htmlFor="name">Name</Label>
       <Input id="name" className="w-full mb-2" type="name" placeholder="Name"/>
-      <Label htmlFor="name">Mail</Label>
-      <Input id="name" className="w-full mb-2" type="mail" placeholder="Mail"/>
-      <Label htmlFor="name">Message</Label>
-      <Textarea id="name" className="w-full mb-2" placeholder="Message"/>
+      <Label htmlFor="mail">Mail</Label>
+      <Input id="mail" className="w-full mb-2" type="mail" placeholder="Mail"/>
+      <Label htmlFor="message">Message</Label>
+      <Textarea id="message" className="w-full mb-2" placeholder="Message"/>
       <Button className="mt-2 w-full">
         Send
       </Button>

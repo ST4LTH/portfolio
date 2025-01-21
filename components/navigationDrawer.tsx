@@ -43,6 +43,15 @@ export const NavigationDrawer = () => {
                 }
                 ></div>
             </p>
+            <p onClick={() => routeTo("/contact")} className={"text-sm cursor-pointer"}>
+                Contact Me
+                <div
+                className={
+                    "h-[1px] bg-white transition-all " +
+                    (pathname === "/contact" ? "w-full" : "w-0")
+                }
+                ></div>
+            </p>
         </>
     );
 };
