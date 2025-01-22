@@ -13,7 +13,7 @@ export const NavigationDrawer = () => {
 
     return (
         <>
-            <div onClick={() => routeTo("/")} className={"text-sm cursor-pointer"}>
+            <p onClick={() => routeTo("/")} className={"text-sm cursor-pointer"}>
                 About Me
                 <div
                 className={
@@ -21,7 +21,7 @@ export const NavigationDrawer = () => {
                     (pathname === "/" ? "w-full" : "w-0")
                 }
                 ></div>
-            </div>
+            </p>
             <p
                 onClick={() => routeTo("/shattered")}
                 className={"text-sm cursor-pointer"}

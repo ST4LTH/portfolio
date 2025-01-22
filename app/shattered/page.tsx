@@ -1,7 +1,12 @@
+"use client"
+
 import Image from "next/image"
 import Shattered from '@/assets/shattered.png';  
+import { useRouter } from "next/navigation";
 
 export default function About() {
+  const router = useRouter();
+
   return (
     <div className="flex gap-6 w-fit">
       <div>
@@ -35,7 +40,7 @@ export default function About() {
           Showcases
         </p>
         <div className="flex gap-1">
-          <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+          <p onClick={() => router.push('/shattered/phone')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
             Phone
           </p>
           <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
