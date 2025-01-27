@@ -61,13 +61,13 @@ export default function RootLayout({
               <Navigation pages={routes} />
               <div className="absolute right-14 flex items-center gap-6 ">
                 <a href="https://github.com/ST4LTH">
-                  <GithubIcon className="fill-black dark:fill-white w-10 h-10 hover:scale-105" />
+                  <GithubIcon className="fill-black dark:fill-white w-10 h-10 transition-all hover:scale-105" />
                 </a>
                 <a href="https://www.youtube.com/@st4lth">
-                  <YoutubeIcon className="fill-black dark:fill-white w-10 h-10 hover:scale-105" />
+                  <YoutubeIcon className="fill-black dark:fill-white w-10 h-10 transition-all hover:scale-105" />
                 </a>
                 <a href="https://discord.gg/Sgzd9umgjg"> 
-                  <DiscordIcon className="fill-black dark:fill-white w-10 h-10 hover:scale-105" />
+                  <DiscordIcon className="fill-black dark:fill-white w-10 h-10 transition-all hover:scale-105" />
                 </a>
               </div>
             </footer>
