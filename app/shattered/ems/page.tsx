@@ -6,7 +6,7 @@ import Overview from '@/assets/ems-mdt/overview.png'
 import { X } from "lucide-react";
 import Link from "next/link";
 
-export default function() {
+export default function ems() {
   return (
     <div className="flex gap-4 p-2 pr-5 w-fit rounded-xl">
       <Link href="/shattered">

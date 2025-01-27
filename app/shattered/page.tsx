@@ -1,12 +1,8 @@
-"use client"
-
-import Image from "next/image"
+import Image from "next/image";
 import Shattered from '@/assets/shattered.png';  
-import { useRouter } from "next/navigation";
+import Link from "next/link";
 
-export default function About() {
-  const router = useRouter();
-
+export default function shattered() {
   return (
     <div className="flex gap-6 w-fit">
       <div>
@@ -40,30 +36,46 @@ export default function About() {
           Showcases
         </p>
         <div className="flex flex-wrap gap-1">
-          <p onClick={() => router.push('/shattered/phone')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Phone
-          </p>
-          <p onClick={() => router.push('/shattered/spawnmenu')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Spawnmenu
-          </p>
-          <p onClick={() => router.push('/shattered/pausemenu')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Pausemenu
-          </p>
-          <p onClick={() => router.push('/shattered/mdt')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            MDT
-          </p>
-          <p onClick={() => router.push('/shattered/ems')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Ems MDT
-          </p>
-          <p onClick={() => router.push('/shattered/housing')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Housing
-          </p>
-          <p onClick={() => router.push('/shattered/mechanic')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Mechanic
-          </p>
-          <p onClick={() => router.push('/shattered/skilltree')} className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
-            Skilltree
-          </p>
+          <Link href="/shattered/phone">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Phone
+            </p>
+          </Link>
+          <Link href="/shattered/spawnmenu">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Spawnmenu
+            </p>
+          </Link>
+          <Link href="/shattered/pausemenu">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Pausemenu
+            </p>
+          </Link>
+          <Link href="/shattered/mdt">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              MDT
+            </p>
+          </Link>
+          <Link href="/shattered/ems">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Ems MDT
+            </p>
+          </Link>
+          <Link href="/shattered/housing">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Housing
+            </p>
+          </Link>
+          <Link href="/shattered/mechanic">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Mechanic
+            </p>
+          </Link>
+          <Link href="/shattered/skilltree">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Skilltree
+            </p>
+          </Link>
         </div>
       </div>
     </div>

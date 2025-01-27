@@ -3,7 +3,7 @@ import Phone from '@/assets/phone/phone.png';
 import { X } from "lucide-react";
 import Link from "next/link";
 
-export default function() {
+export default function phone() {
   return (
     <div className="flex gap-4 p-2 pr-5 w-fit rounded-xl">
       <Link href="/shattered">

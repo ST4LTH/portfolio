@@ -3,7 +3,7 @@ import Housing from '@/assets/mechanic/mechanic.jpg';
 import { X } from "lucide-react";
 import Link from "next/link";
 
-export default function() {
+export default function mechanic() {
   return (
     <div className="flex gap-4 p-2 pr-5 w-fit rounded-xl">
       <Link href="/shattered">
