@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function shattered() {
   return (
-    <div className="flex gap-6 w-fit">
+    <div className="flex gap-6 w-fit relative">
       <div>
         <Image 
           className="w-48 h-48"
@@ -26,7 +26,7 @@ export default function shattered() {
             A personal passion project I&apos;ve been working on since 2023
           </li>
           <li className="mb-2">
-            Fully inhouse developed framework
+            Fully inhouse developed framework in lua
           </li>
           <li className="mb-2">
             Fully own made UI made with React and Vue
@@ -35,7 +35,7 @@ export default function shattered() {
         <p className="mt-5 text-sm text-neutral-700 dark:text-neutral-400 ">
           Showcases
         </p>
-        <div className="flex flex-wrap gap-1">
+        <div className="flex flex-wrap gap-1 w-[50vh]">
           <Link href="/shattered/phone">
             <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
               Phone
@@ -69,6 +69,11 @@ export default function shattered() {
           <Link href="/shattered/mechanic">
             <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
               Mechanic
+            </p>
+          </Link>
+          <Link href="/shattered/clothing">
+            <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
+              Clothing
             </p>
           </Link>
           <Link href="/shattered/skilltree">
