@@ -1,5 +1,5 @@
 import Image from "next/image"
-import Phone from '@/assets/phone/phone.png';  
+import Housing from '@/assets/housing/housing.png';  
 import { X } from "lucide-react";
 import Link from "next/link";
 
@@ -10,24 +10,21 @@ export default function() {
         <X className="w-5 h-5 mt-2 cursor-pointer" />
       </Link>
       <Image 
-        className=" h-full w-48"
+        className="w-128"
         width={500}
         height={500} 
         alt="shattered-icon" 
-        src={Phone.src} 
-      />  
+        src={Housing.src} 
+        />  
       <div className="mt-5">
-        <div className="flex gap-2 items-center">
-          <p className="mb-1 text-xl font-semibold">
-            Phone
+        <div className="flex mb-5 gap-2 items-center">
+          <p className="text-xl font-semibold">
+            Housing
           </p>
         </div>
-        <p className="mb-6 text-sm text-neutral-700 dark:text-neutral-400 ">
-          Collaboration project with Brandstationen
-        </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            Frontend made in Vue using pinia and shadcn
+            Frontend made in React using Zustand, shadcn and three.js
           </li>
           <li className="mb-2">
             Backend made in Lua 

@@ -5,6 +5,8 @@ import { TypescriptIcon } from "@/assets/icons/typescript";
 import { VueIcon } from "@/assets/icons/vue";
 import Image from "next/image"
 import Edvin from '@/assets/edvin.png';  
+import { SolidJSIcon } from "@/assets/icons/solidJS";
+import { SvelteIcon } from "@/assets/icons/svelte";
 
 export default function Home() {
   return (
@@ -50,6 +52,8 @@ export default function Home() {
           <TypescriptIcon className="w-10 h-10 hover:scale-110 transition-all" />
           <ReactIcon className="w-10 h-10 hover:scale-110 transition-all" />
           <VueIcon className="w-10 h-10 hover:scale-110 transition-all" />
+          <SolidJSIcon className="w-10 h-10 hover:scale-110 transition-all" />
+          <SvelteIcon className="w-10 h-10 hover:scale-110 transition-all" />
           <LuaIcon className="w-10 h-10 hover:scale-110 transition-all" />
         </div>
       </div>
