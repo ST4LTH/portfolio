@@ -9,25 +9,37 @@ export const Navigation = ({
 }: {
   pages: string[];
 }) => {
-    const router = useRouter();
-    const pathname = usePathname();
-    const currentPage = pathname;
-    
-    const currentPageIndex = pages.indexOf(currentPage);
+  const router = useRouter();
+  const pathname = usePathname();
+  const currentPage = pathname;
 
-    return (
-        <div className="flex gap-1">
-            {currentPageIndex > 0 && (
-                <Button variant="ghost" size="icon" onClick={() => router.push(pages[currentPageIndex - 1])}>
-                    <ChevronLeft />
-                </Button>
-            )}
-            
-            {currentPageIndex < pages.length - 1 && (
-                <Button variant="ghost" size="icon" onClick={() => router.push(pages[currentPageIndex + 1])}>
-                    <ChevronRight />
-                </Button>
-            )}
-        </div>
-    );
+  // Check if the route matches "shattered/*" but not "/shattered"
+  const isShatteredSubRoute = /^\/shattered\/.+/.test(currentPage);
+  if (isShatteredSubRoute) return null; // Don't render if it's a "shattered/*" route
+
+  const currentPageIndex = pages.indexOf(currentPage);
+
+  return (
+    <div className="flex gap-1">
+      {currentPageIndex > 0 && (
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={() => router.push(pages[currentPageIndex - 1])}
+        >
+          <ChevronLeft />
+        </Button>
+      )}
+
+      {currentPageIndex < pages.length - 1 && (
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={() => router.push(pages[currentPageIndex + 1])}
+        >
+          <ChevronRight />
+        </Button>
+      )}
+    </div>
+  );
 };
