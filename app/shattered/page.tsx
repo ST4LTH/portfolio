@@ -51,11 +51,11 @@ export default function shattered() {
               Pausemenu
             </p>
           </Link>
-          <Link href="/shattered/mdt">
+{/*           <Link href="/shattered/mdt">
             <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
               MDT
             </p>
-          </Link>
+          </Link> */}
           <Link href="/shattered/ems">
             <p className="cursor-pointer text-sm bg-black/10 hover:bg-black/20 dark:bg-black/30 hover:dark:bg-black/70 rounded w-fit px-1.5 py-0.5">
               Ems MDT
