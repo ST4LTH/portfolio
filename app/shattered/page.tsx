@@ -19,11 +19,11 @@ export default function shattered() {
           Shattered Roleplay
         </p>
         <p className="mb-6 text-sm text-neutral-700 dark:text-neutral-400 ">
-          Owner and Developer
+          Previous project
         </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
-            A personal passion project I&apos;ve been working on since 2023
+            Personal passion project I&apos;ve been working on since 2023
           </li>
           <li className="mb-2">
             Fully inhouse developed framework in lua

@@ -30,11 +30,7 @@ export default function Home() {
             Freelance fullstack developer currently specializing in fivem development
           </li>
           <li className="mb-2">
-            Owner and developer of 
-            <a 
-              href="https://discord.gg/UCS72bWQ9u"
-              className="py-1 px-1.5 ml-1 transition-all bg-blue-500/30 dark:bg-blue-500/10 dark:hover:bg-blue-500/15 rounded"
-            >Shattered Roleplay</a>
+            Been making fivem scripts since 2022
           </li>
           <li className="mb-2">
             Selling my own fivem scripts on 
